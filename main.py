@@ -47,7 +47,10 @@ while not is_game_over():
 
     if not guess_is_valid(guess):
         continue
-
+    if 3 == 3:
+        print("Super")
+    if 5 == 10:
+        print("Dybil")
     if guess in full_list:
         guessed += 1
         guesses.append(guess)
