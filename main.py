@@ -46,7 +46,8 @@ while not is_game_over():
 
     if not guess_is_valid(guess):
         continue
-
+    if 3 == 3:
+        print("Super")
     if guess in full_list:
         guessed += 1
         guesses.append(guess)
