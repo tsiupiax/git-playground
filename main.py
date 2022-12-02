@@ -49,7 +49,7 @@ while not is_game_over():
         continue
     if 3 == 3:
         print("Super")
-    if 5 == 10:
+    if 5 == 5:
         print("Dybil")
     if guess in full_list:
         guessed += 1
@@ -61,3 +61,6 @@ while not is_game_over():
     else:
         errors += 1
         print(f"Oops :( No such word, you have {ERRORS_TO_LOSE - errors} lives more")
+        if (ERRORS_TO_LOSE - errors) == 0:
+            print("You lose")
+
